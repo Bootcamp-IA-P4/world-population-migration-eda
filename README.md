@@ -49,47 +49,35 @@ jupyter notebook population_eda.ipynb
 El análisis está dividido en las siguientes secciones:  
 
 ### 1. Exploración inicial y preparación de datos  
-- Carga del dataset  
-- Transformación de formato ancho a largo  
-- Limpieza y análisis descriptivo básico  
+- Carga del dataset de migración neta y población total  
+- Limpieza y transformación de datos  
+- Análisis descriptivo inicial  
 
-### 2. Evolución de la población mundial  
-- Análisis de la tendencia global de crecimiento poblacional  
-- Visualización de la evolución desde 1960 hasta 2022  
+### 2. Impacto de la migración neta en la población total  
+- Explicación de la variación de la población simulada eliminando migración neta negativa  
+- Comparación entre población real y simulada  
+- Visualización de las tendencias  
 
-### 3. Casos de estudio demográficos específicos  
-- **Crisis demográfica post-soviética en Rusia (1985-2005)**: Impacto de la disolución de la URSS  
-- **Crisis de refugiados en Venezuela (2014-2022)**: Éxodo masivo de población  
-- **Impacto de la política del hijo único en China**: Análisis de tasas de crecimiento tras su implementación  
+### 3. Análisis histórico de la emigración argentina  
+- Principales destinos de emigración (América, Europa, Israel, Australia)  
+- Factores históricos y políticos que impulsaron la emigración (dictadura militar, crisis económica, políticas migratorias)  
+- Registros de salidas y documentación disponible  
 
-### 4. Comparación entre regiones  
-- Contraste entre África Subsahariana y la Unión Europea  
-- Diferencias en tasas de crecimiento y sus implicaciones socioeconómicas  
+### 4. Factores socioeconómicos de la emigración  
+- Perfil del emigrante argentino (clase social, ocupación, lugar de origen)  
+- Análisis de las provincias con mayor emigración (Buenos Aires, Mendoza, Córdoba)  
+- Comparación con políticas migratorias en países de destino  
 
 ## Principales Hallazgos  
 
-- La población mundial ha crecido exponencialmente pasando de 3 mil millones en 1960 a casi 8 mil millones en 2022.
-- Eventos históricos y políticos pueden impactar fuertemente en las tendencias demográficas.  
-- Regiones como África siguen creciendo, mientras que Europa enfrenta un estancamiento por envejecimiento poblacional.  
-- Políticas gubernamentales, como la del hijo único en China, pueden modificar significativamente la evolución demográfica.  
+- La migración neta tiene un impacto relativamente pequeño en la población total de Argentina, dominada por el crecimiento natural (nacimientos menos muertes).  
+- La población simulada, eliminando migración neta negativa, es ligeramente mayor que la población real, pero las diferencias no son significativas.  
+- Las principales olas de emigración ocurrieron durante la dictadura militar (1976-1983), la crisis económica de 2001 y la eliminación de visas hacia Estados Unidos en los años 90.  
+- Los destinos más comunes de emigración incluyen España, Italia, Estados Unidos, y países vecinos como Chile, Paraguay y Brasil.  
 
 ## Posibles Mejoras Futuras  
 
 Este análisis puede enriquecerse con:  
 
 1. **Mayor contextualización histórica**  
-   - Relacionar eventos clave (guerras, crisis económicas, pandemias) con cambios demográficos específicos.  
-   
-2. **Incorporación de nuevas variables**  
-   - Tasas de natalidad y mortalidad  
-   - Distribución de población por género y edad  
-   - Movimientos migratorios más detallados  
-
-3. **Análisis más avanzados**  
-   - Predicción de tendencias demográficas usando modelos de Machine Learning  
-   - Análisis de correlación entre factores económicos y crecimiento poblacional  
-
-## Conclusiones  
-
-El análisis demuestra cómo los datos demográficos reflejan cambios sociales, económicos y políticos a nivel global. Comprender estos patrones es clave para anticipar desafíos y oportunidades en el desarrollo mundial.  
-
+   - Relacionar eventos clave (dictaduras,
