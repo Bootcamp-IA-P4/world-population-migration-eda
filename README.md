@@ -73,7 +73,7 @@ Los datos utilizados en este análisis provienen de:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/jruizndev/world-population-eda.git
+git clone https://github.com/Bootcamp-IA-P4/world-population-migration-eda.git
 cd world-population-eda
 
 # Crear entorno virtual
