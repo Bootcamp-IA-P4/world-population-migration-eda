@@ -62,8 +62,8 @@ Los datos utilizados en este análisis provienen de:
 │   ├── peruvian_eda.ipynb
 │   ├── population_eda.ipynb
 │   └── venezuela_migrate.ipynb
-├── .gitignore                # Archivos y carpetas ignorados por git
-├── README.md                 # Este archivo
+├── .gitignore                
+├── README.md                 
 └── requirements.txt          # Dependencias del proyecto
 ```
 
