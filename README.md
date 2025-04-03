@@ -137,7 +137,7 @@ Al identificar los importantes cambios demográficos causados por la migración,
 ## 📚 Referencias
 
 1. World Population - [Banco Mundial](https://data.worldbank.org/indicator/SP.POP.TOTL)
-2. Base de Datos Limpia - [Kaggle (Banco Mundial)](https://www.kaggle.com/datasets/ayushparwal2026/country-population-from-1960-to-2022/data) 
+2. Base de Datos Limpia - [Kaggle](https://www.kaggle.com/datasets/ayushparwal2026/country-population-from-1960-to-2022/data) 
 3. Migración Neta - [Banco Mundial](https://data.worldbank.org/indicator/SM.POP.NETM)
 4. Tasa de Homicidios - [Banco Mundial](https://data.worldbank.org/indicator/VC.IHR.PSRC.P5)
 
