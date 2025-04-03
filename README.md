@@ -1,5 +1,22 @@
 # Análisis Exploratorio de Datos: Migración Global y Regional
 
+<div align="center">
+  <img src="https://github.com/Bootcamp-IA-P4/world-population-migration-eda/blob/main/map.png" alt="Mapa de Migración Global" width="100%">
+</div>
+
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-yellow.svg?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.2.4-blue.svg?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.1-orange.svg?style=flat&logo=python&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-teal.svg?style=flat&logo=python&logoColor=white)](https://seaborn.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-6.0.1-lightblue.svg?style=flat&logo=plotly&logoColor=white)](https://plotly.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
+
+</div>
+
 ## 📋 Descripción
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) sobre los patrones de migración global y regional, con un enfoque especial en América Latina. El estudio analiza las causas y efectos demográficos de la migración en diferentes países y regiones, utilizando datos del Banco Mundial.
@@ -24,30 +41,30 @@ El análisis se enfoca en varios casos emblemáticos:
 
 Los datos utilizados en este análisis provienen de:
 
-- Población mundial: Banco Mundial (transformación a `world_population_long.csv`)
-- Migración neta por países: Datos oficiales del Banco Mundial
-- Análisis específico por país: Fusión de datasets generando `world_population_net_migration.csv`
-- Factores adicionales (México): Incorporación de datos sobre criminalidad del Banco Mundial
+- **Población mundial**: Banco Mundial (transformación a `world_population_long.csv`)
+- **Migración neta por países**: Datos oficiales del Banco Mundial
+- **Análisis específico por país**: Fusión de datasets generando `world_population_net_migration.csv`
+- **Factores adicionales (México)**: Incorporación de datos sobre criminalidad del Banco Mundial
 
 ## 📈 Principales Hallazgos
 
-### Venezuela
+### Venezuela 🇻🇪
 - Pérdida poblacional de 4.57 millones de personas entre 2014-2022
 - Transformación de patrones migratorios regionales, convirtiendo a países tradicionalmente emisores en receptores
 
-### México
+### México 🇲🇽
 - Migración constante hacia EE.UU. con valores negativos persistentes
 - Influencia de múltiples factores: sismos (1985, 2017), crisis económicas (1994, 2008, 2015), violencia y cambios políticos
 
-### Argentina
+### Argentina 🇦🇷
 - Flujos migratorios marcados por crisis políticas y económicas
 - Migración neta positiva en la mayoría de los años, con éxodos significativos durante la dictadura militar (1977), Crisis del Corralito (2001) y crisis reciente (2020)
 
-### Perú
+### Perú 🇵🇪
 - Transición de emigración neta constante a inmigración neta desde 2015
 - Mayor emigración en 2007 (-236,745 personas) y máxima inmigración en 2018 (+339,067 personas)
 
-### Global
+### Global 🌍
 - Crisis migratorias contemporáneas: Siria (2011-2022), Venezuela (2016-2022), Ucrania (2022)
 - Regionalización de flujos migratorios y emergencia de nuevos polos de atracción económica
 
@@ -69,29 +86,42 @@ Los datos utilizados en este análisis provienen de:
 
 ## 🚀 Comenzando
 
-### Prerrequisitos
+### Clonar el repositorio
 
 ```bash
-# Clonar el repositorio
 git clone https://github.com/Bootcamp-IA-P4/world-population-migration-eda.git
 cd world-population-eda
+```
 
-# Crear entorno virtual
+### Crear y activar entorno virtual
+
+En Linux/macOS:
+```bash
 python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+source venv/bin/activate
+```
 
-# Instalar dependencias
+En Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Instalar dependencias requeridas
+
+```bash
 pip install -r requirements.txt
 ```
 
-### Uso
-
-Los principales análisis se encuentran en notebooks Jupyter individuales dentro de la carpeta EDAS. Puedes ejecutarlos con Jupyter Notebook, Jupyter Lab, VSCode o cualquier otro entorno compatible con archivos .ipynb:
+### Ejecutar análisis
 
 ```bash
-# Ejemplo para ejecutar un notebook específico
 jupyter notebook EDAS/global_migration_patterns.ipynb
 ```
+
+## 📑 Informe Ejecutivo
+
+Para una visión completa y resumida de este análisis, puedes consultar nuestro [Informe Ejecutivo](https://github.com/jruizndev/world-population-eda/blob/main/InformeEjecutivo.pdf) que presenta los principales hallazgos y conclusiones del estudio.
 
 ## 🔄 Relación con el EDA de Población Mundial
 
@@ -104,14 +134,10 @@ Este proyecto expande el análisis demográfico global inicial que se encuentra 
 
 Al identificar los importantes cambios demográficos causados por la migración, surgió la necesidad de un análisis más profundo enfocado específicamente en los patrones migratorios y sus causas, dando origen a este proyecto.
 
-## 📑 Informe Ejecutivo
-
-Para una visión completa y resumida de este análisis, puedes consultar nuestro [Informe Ejecutivo](https://github.com/jruizndev/world-population-eda/blob/main/InformeEjecutivo.pdf) que presenta los principales hallazgos y conclusiones del estudio.
-
 ## 📚 Referencias
 
 1. World Population - [Banco Mundial](https://data.worldbank.org/indicator/SP.POP.TOTL)
-2. Base de Datos Limpia - [Kaggle](https://www.kaggle.com/datasets/ayushparwal2026/country-population-from-1960-to-2022/data)
+2. Base de Datos Limpia - [Kaggle (Banco Mundial)](https://www.kaggle.com/datasets/ayushparwal2026/country-population-from-1960-to-2022/data) 
 3. Migración Neta - [Banco Mundial](https://data.worldbank.org/indicator/SM.POP.NETM)
 4. Tasa de Homicidios - [Banco Mundial](https://data.worldbank.org/indicator/VC.IHR.PSRC.P5)
 
@@ -126,4 +152,4 @@ Para una visión completa y resumida de este análisis, puedes consultar nuestro
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT 
+Este proyecto está bajo la Licencia MIT
