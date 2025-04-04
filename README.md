@@ -145,7 +145,7 @@ Al identificar los importantes cambios demográficos causados por la migración,
 
 | Contribuidor | GitHub |
 |--------------|--------|
-| Jose Alfonso Ruiz | [![GitHub](https://img.shields.io/badge/GitHub-jruizndev-2ea44f?style=flat&logo=github)](https://github.com/jruizndev) |
+| Jose Alfonso Ruiz | [![GitHub](https://img.shields.io/badge/GitHub-jruizndev-2ea44f?style=flat&logo=github)](https://github.com/peperuizdev) |
 | Veida Velázquez | [![GitHub](https://img.shields.io/badge/GitHub-DarthVada36-2ea44f?style=flat&logo=github)](https://github.com/DarthVada36) |
 | Máximiliano Scarlato | [![GitHub](https://img.shields.io/badge/GitHub-MaximilianoScarlato-2ea44f?style=flat&logo=github)](https://github.com/MaximilianoScarlato) |
 | Omar Lengua | [![GitHub](https://img.shields.io/badge/GitHub-Omarlsant-2ea44f?style=flat&logo=github)](https://github.com/Omarlsant) |
